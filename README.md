@@ -6,7 +6,7 @@ First, all the tiles are set as default after generating a map. The values for m
 ## Game Rules
 1. The input values of width, number of tiles in a row, and height, number of tiles in a column, must be positive integers from 5 to 50
 2. In order to design a path, users enters a string with multiple set of coordinates. First set is the Entry Point of the path, and the last one is the Exit Point.
-- Note that the path can only ve connected by straight lines, not diagonal ones.
-- *For example, a valid string of path inputs on a 4 x 4 Map: (0, 0) (0, 2) (2, 2) (3, 2) (3, 3)<br />
-  Entry Point is at (0, 0) and Exit Point is at (3, 3)*
+- Note: the path can only be connected by straight lines, not diagonal ones.
+- **_For example, a valid string of path inputs on a 4 x 4 Map: (0, 0) (0, 2) (2, 2) (3, 2) (3, 3)<br />
+  Entry Point is at (0, 0) and Exit Point is at (3, 3)_**
 3. Path must jave at least two inputs
